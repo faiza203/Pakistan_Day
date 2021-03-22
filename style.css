@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  border-radius: 50%;
+  border-top: 1em solid green;
+  border-bottom: 0px solid green;
+  border-left: 0px solid green;
+  border-right: 0px solid green;
+}
+
+.text {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 18em;
+  width: 18em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 18em;
+  display: flex;
+}
+.text h2 {
+  position: relative;
+  top: 10px;
+  left: 0;
+  font-size: 2.5em;
+  color: green;
+}
+
+.container i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: green;
+  border: 2px solid green;
+}
+
+.container i:nth-child(even) {
+
+  background: white;
+}
