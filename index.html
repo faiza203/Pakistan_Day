@@ -8,23 +8,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="bubles">
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
     <div class="container">
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
       <div class="box">
         <div class="text">
           <h2>Happy Pakistan Day</h2>
@@ -32,4 +48,16 @@
       </div>
     </div>
   </body>
+  <script>
+    const container = document.querySelector("body");
+    const movement = () => {
+      for (let index = 0; index > 30; i++) {
+        const x = Math.floor(window.innerWidth * index);
+        const y = Math.floor(window.innerHeight * index);
+        container.children[1].style.top = `${x}px`;
+        container.children[index].style.left = `${y}px`;
+      }
+    };
+    movement();
+  </script>
 </html>
