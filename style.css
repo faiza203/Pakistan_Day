@@ -226,3 +226,24 @@ i:nth-child(30) {
 }
 
 
+@media(max-width : 600px){
+
+  .text {
+    height: 13em;
+    width: 13em;
+    min-height: 13em;
+   }
+  .text h2 {
+    font-size: 2em;
+  }
+}
+@media(max-width : 350px){
+  .text {
+    height: 10em;
+    width: 10em;
+    min-height: 10em;
+   }
+  .text h2 {
+    font-size: 1.5em;
+  }
+}
